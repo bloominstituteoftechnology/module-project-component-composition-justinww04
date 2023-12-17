@@ -7,6 +7,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: #bbc5c7;
 }
 
 #root {
@@ -16,14 +17,15 @@ body {
 }
 
 h1, h2 {
-  color: #93005a;
+  color: #006c86;
+  
 }
 
 #root {
   width: 100%;
   overflow-y: auto;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
