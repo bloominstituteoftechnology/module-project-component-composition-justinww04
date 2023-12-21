@@ -39,6 +39,7 @@ function App() {
       title={apod.title}
       text={apod.explanation}
       imageURL={apod.url}
+      author={apod.author}
       date={apod.date}
       />
     </section>
